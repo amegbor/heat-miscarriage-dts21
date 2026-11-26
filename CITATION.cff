@@ -2,7 +2,10 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the associated article."
 title: "First-Trimester Heat Stress and Miscarriage in 21 Low- and Middle-Income Countries: Analysis and Visualisation Code"
 type: software
-version: 0.1.2
+version: 0.1.3
+doi: 10.5281/zenodo.24571481
+repository-code: "https://github.com/amegbor/heat-miscarriage-dts21"
+date-released: 2026-11-26
 license: MIT
 abstract: "R scripts for the 21-country discrete-time survival analysis of first-trimester heat exposure and miscarriage using Demographic and Health Surveys, including potential impact fractions and quantile g-computation mixture analyses. Private preconstructed analytic inputs are required."
 keywords:
