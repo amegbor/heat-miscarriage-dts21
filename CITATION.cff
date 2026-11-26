@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "First-Trimester Heat Stress and Miscarriage in 21 Low- and Middle-Income Countries: Analysis and Visualisation Code"
+type: software
+version: 0.1.2
+license: MIT
+abstract: "R scripts for the 21-country discrete-time survival analysis of first-trimester heat exposure and miscarriage using Demographic and Health Surveys, including potential impact fractions and quantile g-computation mixture analyses. Private preconstructed analytic inputs are required."
+keywords:
+  - heat exposure
+  - miscarriage
+  - discrete-time survival analysis
+  - Demographic and Health Surveys
+  - climate and health
+authors:
+  - family-names: Amegbor
+    given-names: Prince M.
+    email: prince.amegbor@nyu.edu
+    affiliation: "Department of Global & Environmental Health, School of Global Public Health, New York University, New York, USA"
+  - family-names: Gu
+    given-names: Lijuan
+    affiliation: "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China"
+  - family-names: Quansah
+    given-names: Reginald
+    affiliation: "School of Public Health, University of Ghana, Legon, Accra, Ghana"
+  - family-names: Iloegbu
+    given-names: Emeka
+    affiliation: "Department of Global & Environmental Health, School of Global Public Health, New York University, New York, USA; The City University of New York, New York, USA"
+  - family-names: Ozoh
+    given-names: Obianuju B.
+    affiliation: "Department of Medicine, College of Medicine, University of Lagos, Lagos, Nigeria"
+  - family-names: Yang
+    given-names: Linsheng
+    affiliation: "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China"
+  - family-names: Peprah
+    given-names: Emmanuel
+    affiliation: "Department of Global & Environmental Health, School of Global Public Health, New York University, New York, USA"
+  - family-names: Rosenberg
+    given-names: Mark W.
+    affiliation: "Department of Geography and Planning, Queen's University, Kingston, Ontario, Canada"

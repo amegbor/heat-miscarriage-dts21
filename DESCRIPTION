@@ -1,0 +1,21 @@
+Package: heatMiscarriageDTS21
+Type: Project
+Title: First-Trimester Heat and Miscarriage in 21 Countries
+Version: 0.1.2
+Authors@R: c(
+    person("Prince M.", "Amegbor", role = c("aut", "cre"), email = "prince.amegbor@nyu.edu"),
+    person("Lijuan", "Gu", role = "aut"),
+    person("Reginald", "Quansah", role = "aut"),
+    person("Emeka", "Iloegbu", role = "aut"),
+    person("Obianuju B.", "Ozoh", role = "aut"),
+    person("Linsheng", "Yang", role = "aut"),
+    person("Emmanuel", "Peprah", role = "aut"),
+    person("Mark W.", "Rosenberg", role = "aut"))
+Description: Research analysis and figure scripts for discrete-time survival,
+    environmental mixture analyses and potential impact fractions. Private,
+    preconstructed analytic datasets are required. This is not an R package.
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: data.table, glmmTMB, dplyr, tibble, broom.mixed, readr, lme4, digest,
+    Matrix, qgcomp, sandwich, statmod, ggplot2, patchwork, maps
+License: MIT + file LICENSE

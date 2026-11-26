@@ -1,0 +1,6 @@
+tab <- file.path(Sys.getenv('DTS_ROOT'),'Supplementary_DTS_v1','tables')
+fs <- list.files(tab,pattern='^Nonlinear_(WBGT|UTCI|MRT|HI)_(IQR|RAW)_comparisons[.]csv$',full.names=TRUE)
+if(length(fs)!=8)stop('Need all eight spline comparison tables')
+z<-data.table::rbindlist(lapply(fs,data.table::fread))
+if(nrow(z)!=24)stop('Expected 24 matched linear/spline comparisons')
+data.table::fwrite(z,file.path(tab,'Supplementary_Table_S4_Spline_vs_linear.csv'))
