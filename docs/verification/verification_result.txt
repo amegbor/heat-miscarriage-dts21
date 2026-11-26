@@ -1,0 +1,5 @@
+Package checked: heat_miscarriage_dts21_github_2.zip
+Date: 2026-11-26 15:37:59 EST
+Syntax and dependency check: PASSED
+Interaction table comparison: PASS (identical within 1e-10)
+[1] TRUE
